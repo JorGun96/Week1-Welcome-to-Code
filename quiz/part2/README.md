@@ -17,7 +17,19 @@ let fifth = 'I';
 let sixth = 'love';
 let seventh = 'it!';
 
-//code here
+//code herelet word = 'JavaScript';
+let word = 'JavaScript';
+let second = 'is';
+let third = 'awesome';
+let fourth = 'and';
+let fifth = 'I';
+let sixth = 'love';
+let seventh = 'it!';
+
+console.log(word+ " " +second+ " " +third+ " " +fourth+ " " +fifth+ " " +sixth+ " " +seventh)
+
+
+
 ```
 ## Soal 2. Index Accessing - 1 by 1
 ```js
@@ -35,6 +47,20 @@ let exampleFirstWord = word[0] + word[1] + word[2];
 
 console.log('First Word: ' + exampleFirstWord);
 //lanjutkan dengan struktur log diatas
+
+let word = 'wow JavaScript is so cool';
+let exampleFirstWord = word[0] + word[1] + word[2];
+let secondWord = word[4] + word[5] + word[6] + word[7] + word[8] + word[9] + word[10] + word[11] + word[12] + word[13];
+let thirdWord = word[15] + word[16];
+let forthWord = word[18] + word[19];
+let fifthWord = word[21] + word[22] + word[23] + word[24];
+
+console.log('First Word: ' + exampleFirstWord);
+console.log('Second Word: ' + secondWord);
+console.log('Third word: ' + thirdWord);
+console.log('forth word: ' + forthWord);
+console.log('fifth word: ' + fifthWord);
+
 ```
 ## Soal 3. Breaking Sentence (Again) using Substring
 ```js
@@ -45,6 +71,21 @@ let word3 = 'wow JavaScript is so cool';
 let exampleFirstWord3 = word3.substring(0, 3);
 
 console.log('First Word: ' + exampleFirstWord3);
+//answer :
+let word = "wow Javascript is so cool"
+
+let stringFirstWord = word.substring(0, 3);
+let stringSecondWord = word.substring(4, 14);
+let stringThirdWord = word.substring(15, 17);
+let stringForthWord = word.substring(18, 20);
+let stringFifthWord = word.substring(21, 25);
+
+console.log(stringFirstWord);
+console.log(stringSecondWord);
+console.log(stringThirdWord);
+console.log(stringForthWord);
+console.log(stringFifthWord);
+
 ```
 
 ## Soal 4. Breaking Sentence (yet Again) and Count Each Length
@@ -62,5 +103,27 @@ console.log('First Word: ' + exampleFirstWord + ', with length: ' + firstWordLen
 ```
 
 tulis code sesuai dengan keterangan soalnya dan pola example yang ada
+
+let word = "wow Javascript is so cool"
+
+let stringFirstWord = word.substring(0, 3);
+let firstWordLength = stringFirstWord.length;
+let stringSecondWord = word.substring(4, 14);
+let secondWordLength = stringSecondWord.length;
+let stringThirdWord = word.substring(15, 17);
+let thirdWordLength = stringThirdWord.length;
+let stringForthWord = word.substring(18, 20);
+let forthWordLength = stringForthWord.length;
+let stringFifthWord = word.substring(21, 25);
+let fifthWordLength = stringFifthWord.length;
+
+
+console.log('First Word: ' + stringFirstWord + 'with Length: ' + firstWordLength);
+console.log('Second Word: ' + stringSecondWord + 'with Length: ' + secondWordLength);
+console.log('Third word: ' + stringThirdWord + 'with Length: ' + thirdWordLength);
+console.log('forth word: ' + stringForthWord + 'with Length: ' + forthWordLength);
+console.log('fifth word: ' + stringFifthWord + 'with Length: ' + fifthWordLength);
+
+
 
 Selamat Mengerjakan 👨🏻‍🌾
