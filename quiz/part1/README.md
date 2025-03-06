@@ -85,7 +85,28 @@ let tahun = 2001; // assign nilai variabel tahun disini! (dengan angka antara 19
 
 //code switch case kamu disini
 ```
+let tanggal = 12; 
+let bulan = 2; // Perbaikan: bulan harus berupa angka (1-12)
+let tahun = 2001;
 
+let namaBulan = '';
+switch(bulan) {
+  case 1: namaBulan = 'Januari'; break;
+  case 2: namaBulan = 'Februari'; break;
+  case 3: namaBulan = 'Maret'; break;
+  case 4: namaBulan = 'April'; break;
+  case 5: namaBulan = 'Mei'; break;
+  case 6: namaBulan = 'Juni'; break;
+  case 7: namaBulan = 'Juli'; break;
+  case 8: namaBulan = 'Agustus'; break;
+  case 9: namaBulan = 'September'; break;
+  case 10: namaBulan = 'Oktober'; break;
+  case 11: namaBulan = 'November'; break;
+  case 12: namaBulan = 'Desember'; break;
+  default: namaBulan = 'Bulan tidak valid'; break;
+}
+
+console.log(`${tanggal} ${namaBulan} ${tahun}`);
 ---
 video biar rada paham lah, soalnya ini awal kepahitan ngoding wkwk:
 
