@@ -109,7 +109,7 @@ let input = 5
 //****
 //*****
 ```
-let input = 10;
+let input = 5;
 
 for (let i = 1; i <= input; i++){
     let row = "";
