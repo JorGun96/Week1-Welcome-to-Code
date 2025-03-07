@@ -8,21 +8,6 @@
 // menghitung mundur. Jangan lupa tampilkan di console juga judul 'LOOPING PERTAMA' dan 'LOOPING KEDUA'.
 //tampilkan output yang menunjukan kalau looping itu maju pada looping pertama dan mundur pada looping kedua
 
-console.log("LOOPING PERTAMA");
-let i = 1; 
-while (i <= 10) { 
-    console.log(i);
-    i++;
-}
-
-
-console.log("LOOPING KEDUA");
-let j = 10; 
-while (j >= 1) { 
-    console.log(j);
-    j--; 
-}
-
 
 
 
@@ -36,16 +21,7 @@ while (j >= 1) {
 //tampilkan output yang menunjukan kalau looping itu maju pada looping pertama dan mundur pada looping kedua
 
 
-console.log("FIRST LOOP FOR")
-for (let i = 0; i <= 10; i++) {
-    console.log(i);
-}
 
-
-console.log("SECOND LOOP FOR")
-for (let j = 10; j >= 1; j--) {
-    console.log(j);
-}
 ```
 ## Soal 3. Angka Ganjil dan Genap
 
@@ -59,13 +35,7 @@ for (let j = 10; j >= 1; j--) {
 // Apabila angka counter adalah angka genap, tuliskan GENAP
 // Apabila angka counter adalah angka ganjil, tuliskan GANJIL
 
-for (let i = 0; i<= 100; i++) {
-    if (i % 2 === 0) {
-        console.log(i + ' = Genap');
-    }else{
-        console.log(i + ' = Ganjil');
-    }
-}
+
 ```
 ## Soal 4. counter kelipatan
 ```js
@@ -76,27 +46,7 @@ for (let i = 0; i<= 100; i++) {
 // Apabila angka counter adalah kelipatan 3 dengan pertambahan 2, kelipatan 6 dengan pertambahan 5, dan kelipatan 10 dengan pertambahan 9, tuliskan:
 // "3 kelipatan 3"dan seterusnya.
 
-//Pekalian 2
-for (let i = 0; i <= 100; i += 2) {
-    if (i % 3 === 0) {
-        console.log(`${i} adalah kelipatan 3`)
-    }
-}
 
-//Perkalian 5
-for (let j = 0; j <= 100; j += 5) {
-    if (j % 3 === 0) {
-        console.log(`${j} adalah kelipatan 3`);
-    }
-}
-
-//Perkalian 9
-for (let k = 0; k <= 100; k += 9) {
-    if (k % 3 === 0) {
-        console.log(`${k} adalah kelipatan 3`);
-    }
-    
-}
 ```
 ## Soal 5. Bintang asteriks
 ```js
@@ -109,16 +59,7 @@ let input = 5
 //****
 //*****
 ```
-let input = 5;
 
-for (let i = 1; i <= input; i++){
-    let row = "";
-    for (let j = 1; j <= i; j++) {
-        row += "*";
-        
-    }  
-    console.log(row);
-}
 ---
 Tips pengerjaan ada di video berikut :
 [Looping](https://youtu.be/kyobpgoqx2c)
