@@ -12,7 +12,16 @@ console.log(shoutOut());
 
 
 // ------------------------------------
-console.log('')
+//Jawaban:
+
+function shortOut(){
+
+    console.log('Halo Function!');
+
+    return;
+}
+
+console.log(shortOut());
 // ------------------------------------
 ```
 
@@ -30,7 +39,18 @@ let hasilPerkalian = calculateMultiply(num1,num2);
 console.log(hasilPerkalian);
 
 // ------------------------------------
-console.log('')
+//Jawaban
+
+let num1 = 1;
+let num2 = 2;
+
+function calculateMultiply(a, b){
+    return a * b;
+}
+
+let hasilPerkalian = calculateMultiply(num1, num2);
+console.log(hasilPerkalian);
+
 // -----------------------------------
 ```
 ## Soal 3
@@ -49,5 +69,20 @@ let hobby = "gaming";
 let fullSentence = processSentence(name,age,address,hobby);
 console.log(fullSentence); // Menampilkan "Nama saya Agus, umur saya 30 tahun, alamat saya di Jln. Malioboro, Yogjakarta, dan saya punya hobby yaitu gaming!"
 ```
+//Jawaban
+
+function processSentence(name, age, address, hobby){
+    return `Halo, name saya ${name}, saya berusia ${age} tinggal di ${address}, dan hobby saya adalah ${hobby}`;
+}
+
+name = "Agus Pedas";
+age = 30;
+address = "Jln. Malioboro, Yogjakarta";
+hobby = "gaming";
+
+let fullSentence = processSentence(name, age, address, hobby);
+
+console.log(fullSentence);
+
 ---
 Materi Function: [Link](../../study-materials/part6.md)
